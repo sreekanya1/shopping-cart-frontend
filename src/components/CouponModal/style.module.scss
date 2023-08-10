@@ -1,0 +1,99 @@
+.coupon-dialog__tail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #eaeaec;
+  font-weight: 700;
+  font-size: 13px;
+  > span {
+    svg {
+      cursor: pointer;
+    }
+  }
+}
+.coupon-dialog__container {
+  padding: 30px !important;
+  .coupon-dialog__input {
+    width: 100%;
+  }
+  .coupon-dialog__content {
+    padding: 22px 0px;
+    .apply-coupon {
+      border-bottom: 1px dashed #7e808d;
+      margin-bottom: 20px;
+    }
+    .coupon-dialog__card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      > span {
+        font-size: 14px;
+        display: flex;
+        margin-left: 16px;
+        padding: 8px 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: 700;
+        color: #7e808d;
+        border-color: #7e808d;
+        border: 1px dashed;
+      }
+      button {
+        margin-left: auto;
+        margin-right: 16px;
+        font-weight: 700;
+        padding: 6px 9px;
+        border-radius: 14px;
+        background: #282c3f;
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 12px;
+      }
+    }
+    .coupon-dialog__offer {
+      display: flex;
+      align-items: center;
+      padding-left: 17px;
+      padding-bottom: 17px;
+      h6 {
+        font-weight: 700;
+        font-size: 14px;
+        padding-top: 12px;
+        color: #7e808d;
+        border-color: #7e808d;
+      }
+      .coupon-dialog__card {
+        svg {
+          font-weight: 700;
+          font-size: 14px;
+          padding-top: 12px;
+          color: #7e808d;
+          border-color: #7e808d;
+        }
+      }
+    }
+  }
+}
+
+.coupon-dialog__footer {
+  //   margin: auto !important;
+  //   width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-bottom: 24px;
+  .coupon-dialog__apply-btn {
+    width: 50%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    border-width: 0px;
+    // padding: 10px 16px;
+    background-color: rgb(255, 63, 108);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 45px;
+    text-transform: capitalize;
+  }
+}

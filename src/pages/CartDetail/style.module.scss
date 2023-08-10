@@ -1,0 +1,116 @@
+.product-container {
+  padding: 85px 0px;
+  .cart-details__content {
+    border: 1px solid #eaeaec;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    .cart-image {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .cart-content {
+      text-align: left;
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+      }
+      > div {
+        width: 100px;
+        height: 45px;
+      }
+      .product-catalog__content {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        svg {
+          font-size: 17px;
+        }
+        span {
+          font-size: 15px;
+          font-weight: 550;
+        }
+      }
+    }
+    .cart-delete {
+      display: flex;
+      margin-top: -5px;
+      margin-left: -10px;
+      cursor: pointer;
+    }
+  }
+  .price-detail-header {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 24px 0 16px;
+    color: #535766;
+    text-align: initial;
+    text-transform: uppercase;
+    .items-data {
+      text-transform: lowercase;
+    }
+  }
+}
+.price-details {
+  padding: 4px 20px;
+  .price-detail__tail {
+    display: flow-root;
+    margin-bottom: 10px;
+    line-height: 26px;
+    text-align: start;
+    font-size: 13px;
+    color: #282c3f;
+    .price-detail__count {
+      float: right;
+      svg {
+        font-size: 15px;
+        height: 13px;
+      }
+    }
+    .discount-amount {
+      color: #03a685;
+    }
+    .apply-coupon {
+      cursor: pointer;
+      font-size: 14px;
+      color: #ff3f6c;
+    }
+  }
+  .total-amount {
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 16px;
+    border-top: 1px solid #eaeaec;
+    color: #3e4152;
+    line-height: 16px;
+  }
+}
+.offer-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .product-catalog__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+  .fixed-price {
+    text-decoration: line-through;
+    color: #94969f;
+    padding: 0 8px;
+  }
+  .product-offer {
+    span {
+      color: #f16565;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+    }
+  }
+}

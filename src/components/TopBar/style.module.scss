@@ -1,0 +1,15 @@
+.topbar__container {
+  background-color: #2874f0;
+  .header-container {
+    padding: 10px;
+    margin: 0px auto;
+    .header-container__content {
+      box-shadow: none;
+      width: 100%;
+      background-color: transparent;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
